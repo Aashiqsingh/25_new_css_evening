@@ -28,7 +28,7 @@
         padding-top: 10px;
         padding-left: 30px;
 
-        position: absolute;
+        position: fixed;
         z-index: 1;
     }
 
@@ -55,6 +55,69 @@
         color: orangered;
         font-size: 30px;
     }
+    .button button{
+        height: 40px;
+        width: 500px;
+        background-color: orangered;
+        color: white;
+        border: none;
+        margin: 30px;
+        margin-left: 60px;
+    }
+    .youtube{
+        height: 410px;
+        width: 100%;
+        background-color: #F0F0F0;
+
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+    .youtube iframe{
+        padding: 10px;
+    }
+    .poster{
+        height: 920px;
+        width: 100%;
+        padding: 40px;
+    }
+    .poster img{
+        height: 800px;
+        width: 550px;
+        margin: 10px;
+
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.096) , -10px -10px 10px rgba(0, 0, 0, 0.096);
+    }
+    .welcome{
+        height: 700px;
+        width: 100%;
+        background-color: #F0F0F0;
+    }
+    .welcome{
+        display: flex;
+    }
+    .para{
+        width: 50%;
+        padding-top: 40px;
+        padding-left: 40px;
+        font-size: 18px;
+    }
+    .image{
+        width: 50%;
+        padding-top: 40px;
+        padding-left: 20px;
+    }
+    .list p{
+        padding: 10px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.196);
+    }
+    .list{
+        border-left: 1px solid orangered;
+    }
+    .list i{
+        margin-left: -24px;
+        font-size: 30px;
+        color: orangered;
+    }
 </style>
 
 <body>
@@ -80,7 +143,7 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="10000">
                         <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/hallticketbgnew.png" class="d-block w-100" alt="...">
-                        
+
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
                         <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/slider2.jpg" class="d-block w-100" alt="...">
@@ -107,6 +170,43 @@
                 </button>
             </div>
         </div>
+        <!-- slider end -->
+
+        <div class="button">
+            <button>Register Here For Free Online seminar on What after 10th/12th</button>
+            <button>Register Here For Free Online Bootcamp</button>
+        </div>
+        <!-- buuton ends -->
+
+        <div class="youtube">
+            <iframe width="577" height="347" src="https://www.youtube.com/embed/j1_hkYd_31o" title="Profile || Dhiraj Poojara (Gujarati) || Royal Technosoft" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="577" height="347" src="https://www.youtube.com/embed/wtSwXvaQwNY" title="Dhiraj Poojara" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <!-- youtube ends -->
+         <div class="poster">
+            <img src="https://royaltechnosoft.com/wp-content/uploads/2021/07/NamraShah_page-0001.jpg" alt="">
+            <img src="https://royaltechnosoft.com/wp-content/uploads/2021/04/IMG-20210412-WA0004.jpg" alt="">
+         </div>
+         <!-- poster -->
+
+         <div class="welcome">
+            <div class="para">
+                <h2>Welcome To Royal Technosoft</h2>
+                <p>Add to your IT skills with short term and Professional courses from Royal Technosoft with Live Projects in Basic and Advance technologies.</p>
+
+                <div class="list">
+                    <p><i class="fa-solid fa-caret-right"></i>Get Training in Java,Oracle,Python And Other Technology</p>
+                    <p><i class="fa-solid fa-caret-right"></i>Get Placement</p>
+                    <p><i class="fa-solid fa-caret-right"></i>Live Project Training</p>
+                    <p><i class="fa-solid fa-caret-right"></i>Soft skill development</p>
+                    <p><i class="fa-solid fa-caret-right"></i>Certification  in Java,Oracle,Python And Other Technology</p>
+                    <p><i class="fa-solid fa-caret-right"></i>Advanced Programs</p>
+                </div>
+            </div>
+            <div class="image">
+                <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/dhirajpoojara.png" alt="">
+            </div>
+         </div>
 
     </div>
 
