@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box{
+        height: 300px;
+        width: 300px;
+        background-image: url('https://i.guim.co.uk/img/media/327aa3f0c3b8e40ab03b4ae80319064e401c6fbc/377_133_3542_2834/master/3542.jpg?width=465&dpr=1&s=none&crop=none');
+        background-size: cover;
+    }
+    .box::before{
+        content: '';
+        position: absolute;
+
+        height: 300px;
+        width: 300px;
+        background-color: rgba(255, 68, 0, 0.74);
+
+        /* right: 972px; */
+        bottom: 250px;
+
+        transition: 1s;
+    }
+    .box:hover::before{
+        width: 0;
+        height: 0;
+        transition: 1s;
+    }
+</style>
+<body>
+
+    <!--  -->
+
+    <div class="box"></div>
+    
+</body>
+</html>
