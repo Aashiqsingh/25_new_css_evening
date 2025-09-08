@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main{
+        height: 300px;
+        width: 300px;
+        background-image: url('https://cdn.shopify.com/s/files/1/0586/6497/6431/files/Ganpati1-AcryliconCanvas-30x30Inch-25_000_2_11zon.jpg?v=1702031180');
+        background-size: cover;
+    }
+    
+    .main::before{
+        content: '';
+        position: absolute;
+        height: 300px;
+        width: 300px;
+        background-color: rgba(255, 68, 0, 0.747);
+        transition: 1s;
+    }
+    .main::after{
+        content: '';
+        position: absolute;
+        height: 300px;
+        width: 300px;
+        background-color: rgba(0, 0, 0, 0.781);
+        right: 972px;
+        bottom: 252px;
+        transition: 1s;
+    }
+    .main:hover::before{
+        width: 0;
+        height: 0;
+        transition: 1s;
+    }
+    .main:hover::after{
+        width: 0;
+        height: 0;
+        transition: 1s;
+    }
+    
+</style>
+<body>
+
+    <div class="main">
+
+    </div>
+    
+</body>
+</html>
