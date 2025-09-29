@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main {
+        display: flex;
+        height: 500px;
+        width: 100%;
+        background-color: teal;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    .logo img {
+        width: 100%;
+    }
+
+    .para {
+        width: 65%;
+        font-size: 20px;
+        color: white;
+    }
+
+    @media (max-width:500px) {
+        .main {
+            background-color: red;
+            display: block;
+            height: auto;
+            padding: 10px;
+        }
+
+        .logo {
+            width: 100%;
+        }
+
+        .logo img {
+            border-radius: 50%;
+        }
+
+        .para {
+            width: 100%;
+            text-align: justify;
+            margin-top: 20px;
+        }
+    }
+
+    @media (min-width:501px) and (max-width:899px) {
+        .main {
+            background-color: green;
+            height: 100%;
+            align-items:flex-start ;
+            padding: 10px;
+        }
+        .logo{
+            width: 50%;
+        }
+        .logo img{
+            border-radius: 50%;
+        }
+        .para{
+            width: 50%;
+            text-align: justify;
+        }
+    }
+
+    @media (min-width:900px) {
+        .main {
+            background-color: purple;
+            height: 100%;
+        }
+
+        .para {
+            text-align: justify;
+        }
+    }
+</style>
+
+<body>
+
+    <!-- media querry : page responsiveness -->
+
+    <div class="main">
+        <div class="logo">
+            <img src="https://pbs.twimg.com/profile_images/968380843906527233/26WKEI9O_400x400.jpg" alt="">
+        </div>
+        <div class="para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum iure aliquid velit accusantium, eaque, amet
+            nostrum totam eos quisquam eligendi fugit incidunt nisi quae quos maiores eum! Velit nobis illo iste officia
+            suscipit laudantium fugiat voluptatem quae itaque dolore sint unde iure omnis adipisci dolores cupiditate ex
+            quaerat natus, soluta magni necessitatibus animi. Eum ex accusantium vel nostrum, consequuntur dicta fugit
+            repellendus numquam tenetur inventore facilis. Similique deserunt repellat soluta voluptatem maxime suscipit
+            odio repudiandae, ipsum optio at culpa dicta nulla laboriosam eum nostrum repellendus earum explicabo
+            quaerat, vel aliquam! Odio esse earum pariatur reiciendis sed sapiente nobis! Ratione, reiciendis. Lorem
+            ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis eum architecto at harum quod a? Rerum, quis
+            at nesciunt nisi voluptatem provident, soluta blanditiis molestias reiciendis, iste dolorum itaque
+            recusandae nobis sequi aperiam totam possimus ipsam praesentium ipsa ex dignissimos distinctio! Consectetur
+            ratione quisquam consequuntur qui quia saepe deserunt praesentium voluptas, minus quo eligendi dolores
+            corrupti optio repellendus tempore placeat ut in voluptate et provident, magni ipsa inventore? Accusamus
+            quas harum autem et, incidunt esse quasi temporibus vel, molestiae aspernatur iusto impedit ipsa odio? Quos
+            ea obcaecati molestias quibusdam est, reprehenderit asperiores consequuntur qui voluptas mollitia, nemo,
+            repellat commodi fugiat.
+        </div>
+    </div>
+
+</body>
+
+</html>
